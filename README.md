@@ -2,7 +2,7 @@
 This project gives an overview of native components available 
 in Titanium. The components are grouped into multiple groups.
 
-<div style="text-align:center"><img width="376" src="/screen-animation.gif"/></div>
+<img align="center" width="376" src="/screen-animation.gif"/>
 
 ### Fetaures
 - [x] Controls (Switch, Slider, Tabbed Bar, Text Field, Alerts, Dialogs, ...)
