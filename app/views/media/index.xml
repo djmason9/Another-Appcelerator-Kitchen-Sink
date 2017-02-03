@@ -1,0 +1,11 @@
+<Alloy>
+    <Tab title="MEDIA">
+        <Window title="MEDIA">
+            <View layout="vertical">
+                <Label class="lblTitles separator">Media Players</Label>            
+                <VideoPlayer class="separator" ns="Ti.Media" backgroundColor="blue" autoplay="false" height="220" id="VideoPlayer" url="http://techslides.com/demos/sample-videos/small.mp4" width="360"/>
+                <Button class="separator" id="playSound" onClick="playSound">Play Sound</Button>
+            </View>
+        </Window>
+    </Tab>
+</Alloy>

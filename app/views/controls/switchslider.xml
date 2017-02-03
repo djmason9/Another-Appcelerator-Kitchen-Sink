@@ -1,0 +1,12 @@
+<Alloy>
+    <ScrollView layout="vertical">
+        <Label class="lblTitles separator">Switches and Sliders</Label>
+        <Label id="state" class="separator"/>
+        <Switch class="separator" onChange="switchValueChanged"/>
+        <Slider class="separator" id="sizeSlider" width="90%" onChange="sliderValueChanged"/>
+        <Stepper class="separator" ns="Ti.UI.iOS" onChange="stepperValueChanged" platform="ios"/>
+        <Label class="lblTitles separator">Text Fields and Areas</Label>
+        <TextArea class="basicTextArea separator">Type Something</TextArea>
+        <TextField class="basicTextField separator"  hintText="Type Something" ></TextField>
+    </ScrollView>
+</Alloy>

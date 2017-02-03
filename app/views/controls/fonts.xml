@@ -1,0 +1,28 @@
+<Alloy>
+    <ScrollView layout="vertical">
+        <Label class="lblTitles separator">Font Styles</Label>
+        <Label class="lblExample separator" id="lblBold">Bold</Label>
+        <Label class="lblExample separator" id="lblItalic">Italic</Label>
+        <Label class="lblExample separator" id="lblUnderline">
+            <AttributedString id="lblUnderlineAttrStr">Underline!</AttributedString>
+        </Label>
+        <Label class="lblTitles separator">Font Families</Label>
+        <Label class="lblExample separator" id="lblFontsCust">Custom Font</Label>
+        <!-- ANDROID -->
+        <Label class="lblExample separator" id="lblFonts1" platform="android">Serif</Label>
+        <Label class="lblExample separator" id="lblFonts2" platform="android">San Serif</Label>
+        <Label class="lblExample separator" id="lblFonts3" platform="android">Monospace</Label>
+        <!-- IOS -->
+        <Label class="lblExample separator" id="lblFonts1" platform="ios">American Typewriter</Label>
+        <Label class="lblExample separator" id="lblFonts2" platform="ios">Arial Rounded MT Bold</Label>
+        <Label class="lblExample separator" id="lblFonts3" platform="ios">Avenir Black</Label>
+        <Label class="lblExample separator" id="lblFonts4" platform="ios">Chalkduster</Label>
+        <Label class="lblExample separator" id="lblFonts5" platform="ios">Courier</Label>
+        <Label class="lblExample separator" id="lblFonts6" platform="ios">GillSans Ultra Bold</Label>
+        <Label class="lblExample separator" id="lblFonts7" platform="ios">Ornaments</Label>
+        <Label class="lblTitles separator" id="lblColors1">Font Colors</Label>
+        <Label class="lblExample separator" id="lblOrange">Orange</Label>
+        <Label class="lblExample separator" id="lblBlue">Blue</Label>
+        <Label class="lblExample separator" id="lblGreen">Green</Label>
+    </ScrollView>
+</Alloy>

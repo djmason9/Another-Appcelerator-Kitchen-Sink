@@ -1,0 +1,21 @@
+//**********************************
+// Input Fields
+//**********************************
+".basicTextField": {
+	"font": {
+		color: "#000000"
+	},
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"width": 200,
+	"height": 40,
+	"textAlign": "center"
+}
+
+".basicTextArea": {
+	width: 300,
+	height: 100,
+	backgroundColor: "#f0f0f0",
+	borderRadius: 4,
+	color: "#000000"
+
+}

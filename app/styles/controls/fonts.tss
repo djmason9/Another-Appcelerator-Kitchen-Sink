@@ -1,0 +1,108 @@
+
+//**********************************
+//Font Styles
+//**********************************
+"#lblBold": {
+	"font": {
+		"fontWeight": "bold"
+	}
+}
+
+"#lblItalic": {
+	"font": {
+		"fontStyle": "italic"
+	}
+}
+
+"#lblUnderlineAttrStr": {
+	"attributes": [
+		{
+			"type": Ti.UI.ATTRIBUTE_UNDERLINES_STYLE,
+			"value": Ti.UI.ATTRIBUTE_UNDERLINE_STYLE_SINGLE,
+			"range": [0, 10]
+		}
+	]
+}
+
+//**********************************
+// Custom Fonts
+//**********************************
+"#lblFontsCust": {
+	"color": "purple",
+	"font": {
+		"fontFamily": 'abduction2002'
+	}
+}
+
+//**********************************
+//Font Families
+//**********************************
+//IOS
+"#lblFonts1[platform=ios]": {
+	"font": {
+		"fontFamily": "AmericanTypewriter"
+	}
+}
+"#lblFonts2[platform=ios]": {
+	"font": {
+		"fontFamily": "ArialRoundedMTBold"
+	}
+}
+"#lblFonts3[platform=ios]": {
+	"font": {
+		"fontFamily": "Avenir-Black"
+	}
+}
+"#lblFonts4[platform=ios]": {
+	"font": {
+		"fontFamily": "Chalkduster"
+	}
+}
+"#lblFonts5": {
+	"font": {
+		"fontFamily": "Courier"
+	}
+}
+"#lblFonts6[platform=ios]": {
+	"font": {
+		"fontFamily": "GillSans-UltraBold"
+	}
+}
+"#lblFonts7[platform=ios]": {
+	"font": {
+		"fontFamily": "Bodoni Ornaments"
+	}
+}
+
+//ANDROID
+"#lblFonts1[platform=android]": {
+	"font": {
+		"fontFamily": "san-serif"
+	}
+}
+"#lblFonts2[platform=android]": {
+	"font": {
+		"fontFamily": "serif"
+	}
+}
+"#lblFonts3[platform=android]": {
+	"font": {
+		"fontFamily": "monospace"
+	}
+}
+
+//**********************************
+// Label Colors 
+//**********************************
+"#lblOrange": {
+	"color": "orange"
+}
+
+"#lblBlue": {
+	"color": "blue"
+}
+
+
+"#lblGreen": {
+	"color": "green"
+}

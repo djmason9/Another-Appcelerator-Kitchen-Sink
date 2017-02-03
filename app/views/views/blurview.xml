@@ -1,0 +1,9 @@
+<Alloy>
+    <ScrollView layout="vertical">
+        <Label class="lblTitles separator">Blur View</Label>
+        <Button class="separator" title="Blur Image" onClick="applyBlur" />
+        <BlurView id="blurView" ns="Ti.UI.iOS">
+            <ImageView class="myImage" />
+        </BlurView>
+    </ScrollView>
+</Alloy>

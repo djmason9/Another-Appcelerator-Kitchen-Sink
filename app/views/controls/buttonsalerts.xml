@@ -1,0 +1,23 @@
+<Alloy>
+    <ScrollView layout="vertical">
+        <Label class="lblTitles separator">Buttons and Alerts</Label>
+        <Button onClick="showMessage" title="Show Simple Alert" class="separator"/>
+        <Button onClick="showAlertDialog" title="Show Multiple Button Alert" class="separator"/>
+        <Button class="actionButton separator" title="Show Option Dialog" onClick="showOptionDialog" />
+        <Label class="actionButton" id="dialogDecision" class="separator"/>
+        <OptionDialog id="dialog" title="Available Options" onClick="optionDialogClicked">
+            <Options>
+                <Option>Confirm</Option>
+                <Option>Delete</Option>
+                <Option>Cancel</Option>
+            </Options>
+        </OptionDialog>
+        <AlertDialog id="alertDialog" message="Here is your dialog enjoy" onClick="alertDialogClicked" title="DialogShown">
+            <ButtonNames>
+                <ButtonName>Confirm</ButtonName>
+                <ButtonName>Clap Hands</ButtonName>
+                <ButtonName>Cancel</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+    </ScrollView>
+</Alloy>

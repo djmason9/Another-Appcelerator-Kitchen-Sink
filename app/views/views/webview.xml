@@ -1,0 +1,6 @@
+<Alloy>
+	<ScrollView layout="vertical">
+	    <Label class="lblTitles separator">Web View</Label>
+	    <WebView url="https://appcelerator.com" onBeforeload="onBeforeLoad" onLoad="onLoad" />
+	</ScrollView>
+</Alloy>

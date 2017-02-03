@@ -1,0 +1,16 @@
+<Alloy>
+    <Tab title="CONTROLS">
+        <Window id="win" title="CONTROLS (slide for more)">
+            <ScrollableView id="scroller" showPagingControl="true" pageIndicatorColor="gray" currentPageIndicatorColor="red">
+                <!-- Page 1 -->
+                <Require src="controls/fonts"/>
+                <!-- Page 2 -->
+                <Require src="controls/switchslider"/>
+                <!-- Page 3 -->
+                <Require src="controls/buttonsalerts"/>
+                <!-- Page 4 -->
+                <Require src="controls/activityindicator"/>
+            </ScrollableView>
+        </Window>
+    </Tab>
+</Alloy>

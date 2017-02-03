@@ -1,0 +1,5 @@
+<Alloy>
+    <Tab title="MAPS">
+        <Window id="map" title="MAPS"/>
+    </Tab>
+</Alloy>

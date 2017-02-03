@@ -1,0 +1,16 @@
+<Alloy>
+    <Tab title="VIEWS">
+        <Window title="VIEWS">
+            <ScrollableView id="scroller" showPagingControl="true" pageIndicatorColor="gray" currentPageIndicatorColor="red">
+                <!-- Page 1 -->
+                <Require src="views/webview"/>
+                <!-- Page 2 -->
+                <Require src="views/imageview"/>
+                <!-- Page 3 -->
+                <Require src="views/listview"/>
+                <!-- Page 4 -->
+                <Require src="views/blurview" platform="ios"/>
+            </ScrollableView>
+        </Window>
+    </Tab>
+</Alloy>

@@ -1,0 +1,11 @@
+<Alloy>
+    <ScrollView layout="vertical">
+        <Label class="lblTitles separator">Image View</Label>
+        <Label class="separator">Change image size</Label>
+        <Slider id="sizeSlider" onChange="sizeChanged" value="1" width="50%"/>
+        <Label class="separator">Change image opacity</Label>
+        <Slider id="opacitySlider" onChange="setOpacity" value="1" width="50%"/>
+        <ImageView id="image1" image="/images/sups.jpg" width="370"/>
+    </ScrollView>
+</Alloy>
+

@@ -1,0 +1,12 @@
+<Alloy>
+    <ScrollView layout="vertical">
+        <Label class="lblTitles separator">Activity Indicator</Label>
+        <Button class="separator" platform="ios" onClick="changeTintColor" title="Change spinner to random color" />
+        <View class="ai-container">
+            <ActivityIndicator id="indicatorLight"class="separator"/>
+            <ActivityIndicator id="indicatorDark" class="separator"/>
+            <ActivityIndicator id="indicatorBig" class="separator"/>
+            <ActivityIndicator id="indicatorMessage" class="separator"/>
+        </View>
+    </ScrollView>
+</Alloy>

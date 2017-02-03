@@ -1,0 +1,9 @@
+<Alloy>
+    <TabGroup>
+        <Require src="controls/index"/>
+        <Require src="maps/index"/>
+        <Require src="views/index"/>
+        <Require src="apis/index"/>
+        <Require src="media/index"/>
+    </TabGroup>
+</Alloy>
